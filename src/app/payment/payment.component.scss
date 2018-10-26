@@ -1,0 +1,124 @@
+.checkout-items{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 130px;
+    padding-bottom: 0;
+    
+}
+.checkout-pic{
+    position: absolute;
+    left: 10px;
+    width: 35%;
+  
+   
+}
+.checkout-info{
+    position: absolute;
+    right: 10px;
+    width: 60%;
+    height: 125px;
+}
+.item-pic-checkout{
+    width: 100%;
+}
+
+.title-checkout{
+    font-size: 16px;
+    padding: 15px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 5px;
+}
+
+.close-button{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.price-tag{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+
+ul{
+    li{
+        font-size: 12px;
+        color: #999690;
+        list-style: none;
+        margin-left: -34px;
+    }
+}
+.total-price{
+    padding: 25px;
+    letter-spacing: 0.01em;
+    padding-top: 25px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 100%;
+    
+    input, textarea {
+        display: block;
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 1em;
+    }
+
+    .error {
+ 
+        padding: .5em;
+        display: inline-block;
+        font-size: .9em;
+        margin-top: -30px;
+        color: red;
+    }
+}
+
+.cta {
+    width:100%;
+    cursor: pointer;
+    border-radius: 0;
+    text-decoration: none !important;
+    padding: calc(((48px - 11px)/ 2) - 1px) 18px;
+    font-size: .75em;
+    letter-spacing: .1em;
+   
+ 
+    transition: background-color ease-out .2s,color ease-out .2s,border-color ease-out .2s;
+}
+
+.cta:hover{
+    opacity: 0.85;
+}
+
+form{
+    padding: 20px;
+}
+
+label[_ngcontent-c1] input[_ngcontent-c1], label[_ngcontent-c1] textarea[_ngcontent-c1] {
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+
+.shipping-label{
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}

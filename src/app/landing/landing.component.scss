@@ -1,0 +1,85 @@
+.landing-picture-container{
+    padding-bottom: 10px;
+}
+
+.landing-picture{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-title{
+    max-width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.product-price{
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.product-details{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.landing-info{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+
+ul{
+    padding-right: 35px;
+    li{
+        list-style-type: square;
+    }
+}
+
+.add-to-bag-button{
+    width: 90%;
+    border-radius: 0;
+    text-decoration: none!important;
+    padding: calc(((48px - 11px)/ 2) - 1px) 18px;
+    font-size: .75em;
+    letter-spacing: .1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: background-color ease-out .2s,color ease-out .2s,border-color ease-out .2s;
+}
+.add-to-bag-button:hover{
+    opacity: 0.85;
+}
+
+@media (min-width: 1000px){
+    .landing-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .landing-picture-container{
+   
+        
+    }
+    
+    .landing-picture{
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .landing-info{
+   
+    }
+}
+

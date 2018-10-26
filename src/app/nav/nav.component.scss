@@ -1,0 +1,81 @@
+$main-color: black;
+header {
+    background: #ffffff;
+ 
+
+    .logo {
+        font-weight: bold;
+    }
+
+    nav {
+        justify-self: right;
+    
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+
+            li {
+                float: left;
+
+                a {
+                    padding: 1.5em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+
+                    &:hover {
+                        opacity: .65;
+                    }
+                }
+            }
+        }
+    }
+}
+
+a:not([href]):not([tabindex]) {
+    color: $main-color;
+}
+
+.logo-image{
+    width: 160px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo-image:hover{
+    opacity: .65;
+}
+
+.menuIcon{
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    cursor: pointer;
+}
+
+.cart{
+    position: absolute;
+    right: 28px;
+    top: 28px;
+    z-index: 1;
+    width: 25px;
+    cursor: pointer;
+}
+
+
+header[_ngcontent-c1] nav[_ngcontent-c1] ul[_ngcontent-c1] li[_ngcontent-c1] a[_ngcontent-c1] {
+    text-transform: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+header[_ngcontent-c1] nav[_ngcontent-c1] ul[_ngcontent-c1] li[_ngcontent-c1] {
+    padding-top: 9px;
+}
+
+
+@media (min-width: 576px){
+.container {
+    max-width: 90%;
+}
+}
